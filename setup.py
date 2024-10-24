@@ -3,6 +3,7 @@ if __name__ == '__main__':
     setup(
         install_requires=[
             'openmm>=8',
+            'parmed',
             'mdtraj',
             'netCDF4',
             'pymbar',
