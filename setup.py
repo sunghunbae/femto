@@ -1,4 +1,22 @@
-import versioneer
 from setuptools import setup
-
-setup(version=versioneer.get_version(), cmdclass=versioneer.get_cmdclass())
+if __name__ == '__main__':
+    setup(
+        install_requires=[
+            'openmm>=8',
+            'mdtraj',
+            'netCDF4',
+            'pymbar',
+            'jax',
+            'pyyaml',
+            'numba',
+            'scipy',
+            'numpy<=1.25',
+            'ase',
+            'matplotlib',
+            'rdkit',
+            'Pillow',
+            ],
+        package_data={
+            },
+        scripts=[]
+    )
