@@ -1,0 +1,5 @@
+source leaprc.protein.ff14SB
+source leaprc.water.tip3p
+protein = loadPdb "protein_pdb4amber.pdb"
+saveAmberParm protein protein.prmtop protein.crd
+quit
